@@ -1,0 +1,88 @@
+.portfolio-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8rem;
+    padding: 5rem;
+
+}
+
+.card-img-top {
+    /* object-fit: cover;
+    height: 180px; */
+    border-radius: 10px !important;
+}
+.icon {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.icon::before {
+    background-color: #2C3E50;
+    content: "";
+    height: 8px;
+    position: absolute;
+    top: 15px;
+    width: 150px;
+    left: 50px;
+}
+
+.icon::after {
+    background-color: #2C3E50;
+    content: "";
+    height: 8px;
+    position: absolute;
+    top: 15px;
+    width: 150px;
+    right: 50px;
+}
+
+h2 {
+    font-size: 70px;
+    color: #2C3E50;
+}
+
+.card {
+    cursor: pointer;
+    margin: 5px 15px;
+    position: relative;
+    transition: 2s ease-in-out;
+    overflow: hidden;
+}
+
+.card::before {
+    align-items: center;
+    background-color: rgba(26, 188, 156, .8);
+    border-radius: 10px !important;
+    color: #fff;
+    content: "\2b";
+    display: flex;
+    font-size: 6rem;
+    font-weight: bolder;
+    height: 100%;
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s ease-in;
+    width: 100%;
+}
+    
+.card:hover::before {
+    opacity: 1;
+}
+
+.modal-backdrop.show {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.custom-backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1040; /* Ensure it is behind the modal but above other content */
+}
