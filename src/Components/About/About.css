@@ -1,0 +1,43 @@
+.about-body {
+    background-color: #1ABC9C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+    padding: 5rem;
+
+}
+
+.icon{
+    position: relative;
+}
+.icon::before {
+    background-color: #fff;
+    content: "";
+    height: 8px;
+    position: absolute;
+    top: 15px;
+    width: 150px;
+    left: 50px;
+}
+
+.icon::after {
+    background-color: #fff;
+    content: "";
+    height: 8px;
+    position: absolute;
+    top: 15px;
+    width: 150px;
+    right: 50px;
+}
+
+h2{
+    font-size: 70px;
+}
+
+.row p{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 40px;
+}

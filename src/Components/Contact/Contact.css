@@ -1,0 +1,44 @@
+.contact-body {
+     display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8rem;
+    padding: 5rem;
+}
+
+.icon{
+    position: relative;
+}
+.icon::before {
+    background-color: #2C3E50;
+    content: "";
+    height: 8px;
+    position: absolute;
+    top: 15px;
+    width: 150px;
+    left: 50px;
+}
+
+.icon::after {
+    background-color: #2C3E50;
+    content: "";
+    height: 8px;
+    position: absolute;
+    top: 15px;
+    width: 150px;
+    right: 50px;
+}
+
+h2{
+    font-size: 70px;
+    color: #2C3E50;
+}
+.form {
+    width: 60%;
+    text-align: start;
+    color: #2C3E50;
+}
+
+.button{
+    background-color: #1ABC9C;
+}

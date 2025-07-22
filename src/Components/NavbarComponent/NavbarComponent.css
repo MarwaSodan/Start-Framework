@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #2C3E50; /* Background color */
+}
+
+
+
+
+
+
+
+
+.navbar .nav-link, 
+.navbar .navbar-brand {
+  color: white !important;
+}
+
+.navbar .navbar-brand {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.navbar .nav-link {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 30px;
+}
+
+/* Active link background color */
+.nav-pills .nav-link.active {
+  background-color: #1ABC9C !important;
+}
+
+
+/* Custom styles for the Navbar.Toggle */
+.custom-toggle {
+  background-color: #1ABC9C !important;
+  color: white !important;
+  border: none;
+}
+
+.custom-toggle span {
+  color: white !important;
+}
+
+
+.navbar .nav-link.active {
+  background-color: #1ABC9C !important;
+  color: white !important;
+}
+
+.navbar .nav-link:hover {
+  background-color: #1ABC9C !important;
+  color: white !important;
+}
